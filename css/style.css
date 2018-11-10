@@ -205,10 +205,20 @@ img, video, audio, iframe, table, form {
 
 /*////////// HEADER //////////*/
 
-
+header {
+  margin: 0 0 30px;
+}
 
 /*////////// NAVBAR //////////*/
-
+#navbar {
+  position: fixed; /*this doesn't scroll as screen scrolls */
+  top: 0; /*top position*/
+  left: 0;  /* left position */
+  width: 100%; /*100% of the width of the screen */
+  z-index:2; /* make sure it stays visible */
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
 
 
 /*////////// LOGO //////////*/
