@@ -233,6 +233,14 @@ header {
   color: black; /*override default which is blue */
   text-align: center;
   border-right:  1px solid #ccc;
+  text-decoration: none; /* so link doesn't have an underline */
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+
+#navbar nav a.selected {
+  /* anytime a link is selected */
+  background: #333; /* almost black */
+  color: white;
 }
 
 
