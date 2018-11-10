@@ -220,6 +220,21 @@ header {
   text-align: center;
 }
 
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
+
+#navbar nav a {
+  display: inline-block; /*be default links display inline, but we want a width, so we use inline-block */
+  width: 16.66667%; /*there are 6 links */
+  margin: 0;
+  padding: 22px 0; /*22px top and bottom, 0 for left and right */
+  text-transform: uppercase; /*no matter how we set the form, they always show uppercase */
+  color: black; /*override default which is blue */
+  text-align: center;
+  border-right:  1px solid #ccc;
+}
+
 
 /*////////// LOGO //////////*/
 
