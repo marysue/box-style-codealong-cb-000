@@ -39,7 +39,10 @@ figcaption {
 
 
 /*////////// BACKGROUNDS //////////*/
-
+.white-wood {
+  background: url(../images/white-wood.jpg) no-repeat center top; /*image will not repeat */
+  background-size: cover; /*cover the screen no matter what size */
+}
 
 
 /*/////// MEDIA ////////*/
