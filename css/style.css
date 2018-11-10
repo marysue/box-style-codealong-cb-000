@@ -336,12 +336,13 @@ section {
 }
 
 /*////////// DETAILS //////////*/
-
+#details {
+    border-top: 1px solid white;
+}
 
 
 #details div {
   height: 221px;
-  border-top: 1px solid white;
 }
 
 #details a:link, #details a:visited {
