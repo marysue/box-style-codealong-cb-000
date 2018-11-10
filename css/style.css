@@ -44,6 +44,16 @@ figcaption {
   background-size: cover; /*cover the screen no matter what size */
 }
 
+/* LIGHT-FADE */
+ 
+background: #efefef; /* Old browsers */
+background: -moz-linear-gradient(
+  top,
+  #efefef 0%,
+  #ffffff 24%,
+  #ffffff 68%,
+  #dddddd 100%
+); /* FF3.6+ */
 
 /*/////// MEDIA ////////*/
 
